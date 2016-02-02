@@ -45,16 +45,16 @@
 - (void)changeFrameWithNewHeight:(CGFloat)height{
     self.frame = CGRectMake(self.originX, self.originY, self.width, height);
 }
-- (void)changeFrameWithNeworiginX:(CGFloat)originX{
+- (void)changeFrameWithNewOriginX:(CGFloat)originX{
     self.frame = CGRectMake(originX, self.originY, self.width, self.height);
 }
-- (void)changeFrameWithNeworiginY:(CGFloat)originY{
+- (void)changeFrameWithNewOriginY:(CGFloat)originY{
     self.frame = CGRectMake(self.originX, originY, self.width, self.height);
 }
 - (void)changeFrameWithNewSize:(CGSize)size{
     self.frame = CGRectMake(self.originX, self.originY, size.width, size.height);
 }
-- (void)changeFrameWithNeworigin:(CGPoint)origin{
+- (void)changeFrameWithNewOrigin:(CGPoint)origin{
     self.frame = CGRectMake(origin.x, origin.y, self.width, self.height);
 }
 @end

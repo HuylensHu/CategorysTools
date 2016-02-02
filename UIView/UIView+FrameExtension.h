@@ -19,7 +19,7 @@
 @property (nonatomic, readonly)CGFloat top;
 @property (nonatomic, readonly)CGFloat bottom;
 @property (nonatomic, readonly)CGSize size;
-@property (nonatomic, readonly)CGPoint orign;
+@property (nonatomic, readonly)CGPoint origin;
 
 
 - (void)changeFrameWithNewWidth:(CGFloat)width;

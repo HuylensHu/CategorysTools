@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
   s.name             = "CategorysTools"  
   s.version          = "1.0.0"  
   s.summary          = "some useful categorys for iOS"  
-  s.description      = <<-DESC  
+  s.description      = <<-DESC
                        This implement some useful categorys
-                       DESC  
+                       DESC
   s.homepage         = "https://github.com/HuylensHu/CategorysTools"
   s.license          = 'MIT'  
   s.author           = { "huylens" => "huylens@163.com" }  
@@ -16,12 +16,11 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'  
   s.requires_arc = true  
   
-  s.source_files = 'CategorysTools/**/*.{h,m}'
+  s.source_files = '**/*.{h,m}'
   # s.resources = 'Assets'
   
   # s.ios.exclude_files = 'Classes/osx'  
   # s.osx.exclude_files = 'Classes/ios'  
   # s.public_header_files = 'Classes/**/*.h'  
   s.frameworks = 'Foundation', 'UIKit'  
-  
 end  
